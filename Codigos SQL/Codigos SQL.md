@@ -72,7 +72,7 @@ CREATE TABLE ATENDIMENTO (
         REFERENCES LEITO (ID_LEITO)
 );
 ```
-
+---
 
 # Inserir Dados
 
@@ -194,7 +194,7 @@ VALUES (
 
 COMMIT;
 ```
-
+---
 
 # Consultas SQL
 
@@ -275,4 +275,5 @@ SELECT
         2
     ) AS TAXA_OCUPACAO_PCT
 FROM LEITO;
+
 ```
